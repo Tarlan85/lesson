@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    height: 100vh;
+    display: table;
+    width: 100%;
+}
+
+.container {
+    margin-top: 50px;
+    vertical-align: middle;
+    border: 1px solid red;
+    margin: 0 auto;
+    position: relative;
+    height: 400px;
+    width: 200px;
+}
+
+.box {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 10px;
+    line-height: 80px;
+    text-align: center;
+    position: relative;
+}
+
+.one {
+    left: -40px;
+    background-color: #b3e5fc;
+    margin-left: 10px;
+}
+
+.two {
+    background-color: #2196f3;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.three {
+    background-color: #8d6e63;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.four {
+    background-color: #7e57c2;
+    margin-left: 10px;
+    margin-top: 10px;
+}

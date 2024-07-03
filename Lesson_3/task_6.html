@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Book Survey</h1>
+    <form>
+        <fieldset>
+            <legend>Student Information</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><p></p>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email">
+        </fieldset>
+<p></p>
+        <fieldset>
+            <legend>Select your gender</legend>
+            <label><input type="radio" name="gender" value="male"> Male</label>
+            <label><input type="radio" name="gender" value="female"> Female</label>
+        </fieldset>
+<p></p>
+        <fieldset>
+            <legend>Select your favorite type(s) of books:</legend>
+            <table>
+          <tr> <td> <label><input type="checkbox" name="book_type" value="science"> Science</label></td>
+            <td><label><input type="checkbox" name="book_type" value="fiction"> Fiction</label></td></tr>
+          <tr><td>  <label><input type="checkbox" name="book_type" value="arts"> Arts</label></td>
+          <td>  <label><input type="checkbox" name="book_type" value="social_studies"> Social studies</label></td></tr>
+           <tr><td> <label><input type="checkbox" name="book_type" value="non_fiction"> Non-fiction</label></td>
+           <td> <label><input type="checkbox" name="book_type" value="other"> Other</label></td></tr>
+        </table>
+        </fieldset>
+<p></p>
+        <fieldset>
+            <legend>Select the locations you purchase books:</legend>
+            <select id="locations" name="locations" size="3">
+                <option value="book_stores">At book stores</option>
+                <option value="internet">On the internet</option>
+                <option value="yard_sale">Yard sale</option>
+                <option value="yard_sale">Yard sale</option>
+                <option value="yard_sale">Yard sale</option>
+                <option value="yard_sale">Yard sale</option>
+                <option value="yard_sale">Yard sale</option>
+                <option value="yard_sale">Yard sale</option>
+            </select>
+        </fieldset>
+<p></p>   
+        <fieldset>
+            <legend>What role does reading books play in your life?</legend>
+            <textarea id="role" name="role" rows="4" cols="50"></textarea>
+        </fieldset>
+        <p></p>
+        <input type="submit" value="Submit">
+        <input type="reset" value="RESET">
+    </form>
+</body>
+</html>

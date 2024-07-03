@@ -1,0 +1,138 @@
+
+ul.ulq li{
+    background-color: orange;
+    padding: 10px;
+    margin: 5px;
+    color: white;
+    border-bottom: 1px solid black;
+}
+.ulq{
+    width: 200px;
+    padding: 0px;
+    border: 2px solid black;
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: green;
+}
+table th{
+    text-align: left;
+    padding: 5px;
+}
+table{
+    width: 60%;}
+    .div_1{
+        width: 50%;
+        background-color: pink;
+    }
+    .div_2{
+        border: 4px solid rgb(248, 122, 143);
+        padding: 10px;
+        margin: 30px ;
+    }
+    .div_3{
+        border-top: 1px solid black;
+        border-left: 10px solid black;
+        border-bottom: 7px solid yellow ;
+        margin-left: 60px;
+        border-right: 5px dashed rgb(248, 122, 143);
+        height: 70px;
+        text-align: center;
+        width: 70%;
+    }
+    h1{
+        font-size: 40px;
+    }
+    .main{
+        padding: 20px 50px;
+        width: 100%;
+        height: 400px;
+        background-color: grey;
+    }
+    .main .container{
+        width: 50%;
+        padding: 10px;
+        background-color: white;
+    }
+    .main .container  div{
+        background-color: aqua;
+        margin: 5px;
+        padding: 10px;
+    } 
+    .center{
+        text-align: center;
+    }
+    .btn{
+        border-style: none;
+        padding: 10px 20px;
+    }
+    p{
+        width: 50%;
+    }
+    .lastP{
+        border-top:4px solid black ;
+        border-bottom:4px solid black ;
+        border-right:6px solid black ;
+        border-left:6px solid black ;
+    }
+    .task_6{
+        border: 3px solid blue;
+        padding-top: 10px;
+        padding-right: 70px;
+        padding-bottom: 75px;
+        padding-left: 200px;
+        background-color: red;
+    }
+    .multi{
+        border-top:3px solid red ;
+        border-bottom: 3px solid blue;
+        border-right: 3px solid green;
+        border-left: 3px solid yellow; 
+    }
+    .box div{
+        margin: 20px;
+    }
+    .cart {
+        margin: 50px auto;
+        width: 200px;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    .cart h2,p {
+        padding-left: 10px;
+    }
+    .cart h2 {
+        font-size: 20px;
+    }
+    .cart img {
+        width: 100%;
+    }
+    .cart p {
+        width: 100%;
+    }
+    .task_9{
+border-left: 6px solid black;
+border-right: 6px solid black;
+background-color: aqua;
+margin: 10px;
+    }
+    .task_11 .spn{
+        font-size: 50px;
+        text-shadow: rgba(0, 0, 0, 1) 0px 2px 1px;
+    }
+    .task_11{
+        background-color: aqua;
+        color: white;
+    }
+    .task_11 .spn2{
+        color: red;
+        font-size: 30px;
+        text-shadow: rgba(0, 0, 0, 1) 0px 2px 1px;
+margin: 25px;    }
+.inline{
+    display: inline-block;
+    border: 4px solid yellow;
+    background-color: blueviolet;
+    width: 100px;height:100px ;
+}

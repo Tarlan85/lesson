@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 2px solid white;
+}
+.box1 { background-color: darkgreen; }
+.box2 { background-color: coral; }
+.box3 { background-color: cornflowerblue; }
+.box4 { background-color: darkgreen; }
+.box5 { background-color: coral; }
+.box6 { background-color: orange; }
+.box7 { background-color: darkgreen; }
+.box8 { background-color: pink; }
+.box9 { background-color: darkgreen; }

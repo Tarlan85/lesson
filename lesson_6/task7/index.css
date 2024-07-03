@@ -1,0 +1,21 @@
+
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+ul li {
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+ul li:nth-child(even) {
+    background-color: blue;
+    color: yellow;
+}
+
+ul li:nth-child(odd) {
+    background-color: green;
+    color: white;
+}

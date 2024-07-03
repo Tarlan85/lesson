@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+h3 {
+    font-weight: 400;
+    text-align: center;
+}
+
+header, footer {
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+header {
+    background-color: blue;
+    margin-bottom: 40px;
+}
+
+footer {
+    background-color: red;
+    margin-top: 40px;
+}
+
+.main {
+    display: table;
+    width: 100%;
+    height: calc(100vh - 240px); /* Adjusting height for header and footer */
+}
+
+aside, article {
+    display: table-cell;
+    vertical-align: top;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.space {
+    height: calc(100vh - 240px); 
+    width: 80px;
+    background-color: #FFF;
+
+}
+
+aside {
+    width: 25%;
+    background-color: limegreen;
+    color: white;
+}
+
+article {
+    width: 75%;
+    background-color: orange;
+    color: white;
+    position: relative;
+}
+
+.images {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.image {
+    display: inline-block;
+    background-color: #f5dcb1;
+    width: 30%;
+    height: 150px;
+    line-height: 150px;
+    color: black;
+}

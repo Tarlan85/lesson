@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Border Radius</title>
+    <style>
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px;
+            background-color: #00bfff;
+        }
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: purple;
+            border: 5px solid orange;
+            margin: 10px;
+        }
+        .box-rounded {
+            border-radius: 15px;
+        }
+        .box-circle {
+            border-radius: 50%;
+        }
+        .box-oval {
+            border-radius: 50% / 25%;
+        }
+        .box-top-rounded {
+            border-top-left-radius: 50px;
+            border-top-right-radius: 50px;
+        }
+        .box-left-rounded {
+            border-top-left-radius: 50px;
+            border-bottom-left-radius: 50px;
+        }
+        .box-half-circle {
+            border-radius: 50% / 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box"></div>
+        <div class="box box-rounded"></div>
+        <div class="box box-circle"></div>
+        <div class="box box-oval"></div>
+        <div class="box box-top-rounded"></div>
+        <div class="box box-left-rounded"></div>
+        <div class="box box-half-circle"></div>
+    </div>
+</body>
+</html>
