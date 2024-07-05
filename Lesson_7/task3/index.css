@@ -1,0 +1,48 @@
+
+.div1{
+    border: 2px solid ;
+    width:300px ;
+    height: 50px;
+}
+.notanim{
+    width:30% ;
+    height: 100%;
+    background-color:blue;
+    position: relative;
+    animation-name: slide;
+    animation-duration: 5s;
+    animation-iteration-count: 3;
+    animation-delay: 1s;
+    animation-timing-function: steps(2);
+    /* animation-direction: alternate; */
+    animation-fill-mode: both;
+    /* animation-play-state: running; */
+}
+.anim{
+    width:30% ;
+    height: 100%;
+    background-color:blue;
+    position: relative;
+    animation-name: slide;
+    animation-duration: 5s;
+    animation-iteration-count: 3;
+    animation-delay: 1s;
+    animation-timing-function: ease;
+    /* animation-direction: alternate; */
+    animation-fill-mode: both;
+    animation-play-state: running;
+}
+
+.notanim{
+    width:30% ;
+    height: 100%;
+    background-color:blue;
+}
+@keyframes slide {
+    0% {
+  width: 30%;
+    }
+    50% {
+        width:75% ;
+    }
+}
