@@ -153,6 +153,14 @@ for (let i = 2; i < 100; i++) {
 //*************************************************************** */
 // 15. İki dəyişənin dəyərlərininin yerini dəyişən proqram tərtib edin. (Məsələn x=5, y=6, =&gt; x=6, y=5)
 
+let x=5
+let y=6
+let t=x
+t=x
+x=y
+y=t
+console.log("x = "+x,"y = "+y)
+
 //*************************************************************** */
 // 16. Verilmiş ədədin tam ədəd olub olmadığını yoxlayan proqram yazın.
 
@@ -164,9 +172,9 @@ for (let i = 2; i < 100; i++) {
 // - beşinci dərəcə qüvvətə qaldırılmış vəziyyətini (tapın);
 // - 3-ə bölünmədən qalan qalığını (tapın);
 
-let number17 = 13;
-console.log(number17 ** 5);
-console.log(number17 % 3);
+// let number17 = 13;
+// console.log(number17 ** 5);
+// console.log(number17 % 3);
 //*************************************************************** */
 // 18.Daxil edilen temperatura esasen havanin isti, cox isti, soyuq, cox soyuq oldugunu gosterin.
 // 0 &gt; �� cox soyuq
@@ -207,31 +215,31 @@ console.log(number17 % 3);
 //*************************************************************** */
 // 20. Daxil edilen ayların sıra nömresinə əsasən hansı fəsil olduğunu tapın. Meselen : 5 (may ayı 5-cidir) output: Yaz
 // fesli alertə çıxarın.
-let numMonth=+prompt("Ayin nomresini daxil et (Numune 1,2,3..12)")
-switch(numMonth){
-case 1 : alert(" Yanvar 1 ay .Qish fesli")
-break
-case 2 : alert(" Fevral 2 ay .Qish fesli")
-break
-case 3 : alert(" Mart 3 ay .Yaz fesli")
-break
-case 4 : alert(" Aprel 4 ay .Yaz fesli")
-break
-case 5 : alert(" May 5 ay .Yaz fesli")
-break
-case 6 : alert(" Iyun 6 ay .Yay fesli")
-break
-case 7 : alert(" Iyul 7 ay .Yay fesli")
-break
-case 8 : alert(" Avgust 8 ay .Yay fesli")
-break
-case 9 : alert(" Sentyabr 9 ay .Payiz fesli")
-break
-case 10 : alert(" Oktyabr 10 ay .Payiz fesli")
-break
-case 11 : alert(" Noyabr 11 ay .Payiz fesli")
-break
-case 12 : alert(" Dekabr 12 ay .Qish fesli")
-break
-default :alert("Ay nomresini 1-12 araliginda bildirin")
-}
+// let numMonth=+prompt("Ayin nomresini daxil et (Numune 1,2,3..12)")
+// switch(numMonth){
+// case 1 : alert(" Yanvar 1 ay .Qish fesli")
+// break
+// case 2 : alert(" Fevral 2 ay .Qish fesli")
+// break
+// case 3 : alert(" Mart 3 ay .Yaz fesli")
+// break
+// case 4 : alert(" Aprel 4 ay .Yaz fesli")
+// break
+// case 5 : alert(" May 5 ay .Yaz fesli")
+// break
+// case 6 : alert(" Iyun 6 ay .Yay fesli")
+// break
+// case 7 : alert(" Iyul 7 ay .Yay fesli")
+// break
+// case 8 : alert(" Avgust 8 ay .Yay fesli")
+// break
+// case 9 : alert(" Sentyabr 9 ay .Payiz fesli")
+// break
+// case 10 : alert(" Oktyabr 10 ay .Payiz fesli")
+// break
+// case 11 : alert(" Noyabr 11 ay .Payiz fesli")
+// break
+// case 12 : alert(" Dekabr 12 ay .Qish fesli")
+// break
+// default :alert("Ay nomresini 1-12 araliginda bildirin")
+// }
