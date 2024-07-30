@@ -243,3 +243,8 @@ console.log("x = "+x,"y = "+y)
 // break
 // default :alert("Ay nomresini 1-12 araliginda bildirin")
 // }
+if(shetr){
+
+}else{
+    
+}
